@@ -1,16 +1,22 @@
 <template>
   <div id="app">
-    <HelloWorld/>
+    <!--<HelloWorld/>-->
+    <!--<ComputedProperty></ComputedProperty>-->
+    <ClassStyleBinding></ClassStyleBinding>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld'
+// import ComputedProperty from './components/ComputedProperty'
+import ClassStyleBinding from './components/ClassStyleBinding'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    // HelloWorld
+    //   ComputedProperty
+    ClassStyleBinding
   }
 }
 </script>
